@@ -1,0 +1,38 @@
+
+
+      header{
+          background: blue;
+     }
+      h1{ font-size: 24pt;}
+
+      h2{
+          font-size: 18pt;
+          font-weight: bold;
+          background-color: brown;
+      }
+
+      em { color:grey; }
+      p{
+        color:grey;
+        margin: 5px 0 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+      }
+
+     [headerStyle]{
+     cursor:help;
+     padding-bottom:4px;
+       border-bottom: 4px dotted red;
+       text-decoration:none;
+     }
+      
+     .parentFixed{
+     width:50px;
+     height:50px;
+     }
+     
+    .parentRelative {
+    width:10%;
+    height:10%;
+    color : black;
+    }
