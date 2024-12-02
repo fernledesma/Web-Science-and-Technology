@@ -1,0 +1,8 @@
+.w3-container {
+  float: left;
+  min-width: 300px;
+  padding: 5px;
+}
+section { 
+    float: left;
+}
