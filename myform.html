@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
+  </head>
+      
+  <body>
+   <form action="https://www.w3schools.com/action_page.php" method="get">
+   
+   <h1>Adventure Boys Club Signup</h1>
+       <p>Email:</p>
+       <input id="email" type="text" />
+      <p> Confirm Email:</p>
+      <input id="confirm" type="text" />
+       <p>Password:</p>
+       <input id="password" type="password"/>
+       <input type="submit"  />
+       <input type="reset"  />
+    
+    <p>How are you feeling?</p>
+    <input id="emotion" type="text" />
+    
+    
+    <p>Song that describes your mood?</p>
+    <input id="mood" type="text"/>
+    
+    <div id="radioHead">
+    <p>Gender:</p>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+    <p>Hair Color:</p>
+    <input type="radio" name="hairColor" value="brunette"> Brunette<br>
+    <input type="radio" name="hairColor" value="blonde"> Blonde<br>
+    <input type="radio" name="hairColor" value="other"> Other<br>
+     </div>
+    
+    <div id="question2">
+    <h2>Favorite time of the year</h2>
+    <button onclick="validate(); ">Fall</button>
+    <button onclick="validate();">Winter</button>
+    </div>
+     
+    <div id="question1">
+    <input onclick="changeColor('Orange'); checkSimilarity();" type="button" value="Fall Color"/>
+    <input onclick="changeColor('Black'); checkSimilarity();" type="button" value="Winter Color"/>
+    <textarea> Why? </textarea>
+    </div>
+     
+    <h2>Adventure Details</h2>
+    <div id="alert1" onclick="alert('So it begins, the journey to freedom. Are you ready?');">
+       Let's go on adventure. Only the brave will click here. 
+    <h3>Vehicle of Choice</h3>
+    <select name="choices">  
+       <option>Mustang</option> 
+       <option>Porsche</option>
+       <option>Silverado</option> 
+       <option>Outback</option>  
+        <option>Jeep</option> 
+    </select>
+    </div> 
+    <h3>Location of Choice</h3>
+    <table>
+      <tr>
+        <th>National Park</th>
+        <th>County</th>
+        <th>Hours from Pomona </th>
+      </tr>
+      
+      <tr>
+        <td>Yosemite</td>
+        <td>Mariposa</td>
+        <td>5</td>
+      </tr>
+      <tr>
+         <td>Sequoia</td>
+        <td>Tulare</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Kings Canyon</td>
+        <td>Tulare and Fresno</td>
+        <td>4</td>
+      </tr>
+    </table>
+   
+    <div id="checkBx"/>
+    <label>Where would you like to visit? </label><br/>
+    <input type="checkbox" name="visit" value="yosemite">Yosemite<br/> 
+    <input type="checkbox" name="visit" value="sequoia">Sequoia<br/> 
+    <input type="checkbox" name="visit" value="kings">Kings Canyon<br/>
+     </div>
+    </form>
+  </body>
+</html>
