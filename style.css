@@ -1,0 +1,64 @@
+    
+      h1{ font-size: 24pt;}
+
+     h2{
+          font-size: 18pt;
+          font-weight: bold;
+          background-color: brown;
+      }
+     p{
+
+        color:grey;
+        margin: 5px 0 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img{
+          max-height:50%;
+          max-width: 50%;
+          float:left;
+     }
+     #wrapper{
+          width:2000px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: red;
+      }
+     .IntroHeader{ 
+      float:left;
+      max-height:300px;
+      max-width:300px;
+      cursor:help;
+      padding-bottom:4px;
+      border-bottom: 4px dotted red;
+      background-color: pink;
+     }
+     #introPar{
+      float: left;
+      max-height:900px;
+      max-width: 1200px;
+      background-color:blueviolet;
+    }
+  @media only screen and (min-width: 720px) {
+   .Interests{
+    float:left;
+    background-color:black;
+    }
+    .Waterfall{
+    float:left;
+    background-color:black;
+    }
+    .view1{
+     width:50px;
+     height:50px;
+     padding-left:10px;
+     color:grey;
+}
+    .view2 {
+    width:50px;
+    height:50px;
+    padding-left:10px;
+    color:grey;
+    }
+}
+   
