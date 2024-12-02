@@ -1,1 +1,1 @@
-http://tothemoon.atwebpages.com/TestDummy/gallery.php
+https://github.com/fernledesma/Web-Science-and-Technology/tree/master/Test%20Dummy
